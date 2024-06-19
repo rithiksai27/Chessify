@@ -1,11 +1,5 @@
 {
-  "name": "Chessify",
-  "version": "0.1.0",
-  "files": [
-    {
-      "src": "index.js",
-      "dest": "/",
-      "method": "exec"
-    }
-  ]
-}
+    "rewrites":  [
+        {"source": "/(.*)", "destination": "/"}
+     ]
+ }
