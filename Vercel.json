@@ -8,8 +8,17 @@
     ],
     "routes": [
       {
+        "src": "/(js|web.mp3)/(.*)",
+        "dest": "/public/$1/$2"
+      },
+      {
+        "src": "/",
+        "dest": "app.js"
+      },
+      {
         "src": "/(.*)",
         "dest": "app.js"
       }
     ]
   }
+  
